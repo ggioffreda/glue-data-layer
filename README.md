@@ -1,5 +1,5 @@
-Glue - Data Layer
-=================
+GluedJS - Data Layer
+====================
 
 This tiny library adds a level of abstraction on top of RethinkDB with few main 
 goals:
@@ -9,7 +9,7 @@ goals:
 - providing a cleaner way to query the database with no need for user library to
   access the low level connection.
 
-[![Build Status](https://travis-ci.org/ggioffreda/glue-data-layer.svg?branch=master)](https://travis-ci.org/ggioffreda/glue-data-layer)
+[![Build Status](https://travis-ci.org/ggioffreda/glued-data-layer.svg?branch=master)](https://travis-ci.org/ggioffreda/glued-data-layer)
 
 Usage
 -----
@@ -36,7 +36,7 @@ r.connect( {host: 'localhost', port: 28015}, function(err, conn) {
 Using the library:
 
 ```javascript
-var DataLayer = require('glue-data-layer').DataLayer;
+var DataLayer = require('glued-data-layer').DataLayer;
 var dl = new DataLayer({host: 'localhost', port: 28015});
 
 dl.connectModule(function(err, dl) {
@@ -129,7 +129,7 @@ Installation
 
 You can install this library using `npm`:
 
-    npm install glue-data-layer
+    npm install --save glued-data-layer
 
 API
 ---

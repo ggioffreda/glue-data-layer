@@ -1,5 +1,5 @@
 {
-  "name": "glue-data-layer",
+  "name": "glued-data-layer",
   "version": "0.1.1",
   "description": "Layer of abstraction to access data in RethinkDB.",
   "main": "index.js",
@@ -16,10 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ggioffreda/glue-data-layer.git"
+    "url": "git+https://github.com/ggioffreda/glued-data-layer.git"
   },
   "keywords": [
-    "glue",
+    "glued",
+    "gluedjs",
+    "glued-js",
     "data",
     "abstraction",
     "layer",
@@ -28,7 +30,7 @@
   "author": "Giovanni Gioffreda <giovanni.gioffreda@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ggioffreda/glue-data-layer/issues"
+    "url": "https://github.com/ggioffreda/glued-data-layer/issues"
   },
-  "homepage": "https://github.com/ggioffreda/glue-data-layer#readme"
+  "homepage": "https://github.com/ggioffreda/glued-data-layer#readme"
 }
