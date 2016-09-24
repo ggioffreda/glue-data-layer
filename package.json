@@ -1,6 +1,6 @@
 {
   "name": "glued-data-layer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Layer of abstraction to access data in RethinkDB.",
   "main": "index.js",
   "dependencies": {
