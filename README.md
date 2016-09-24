@@ -9,6 +9,8 @@ goals:
 - providing a cleaner way to query the database with no need for user library to
   access the low level connection.
 
+[![Build Status](https://travis-ci.org/ggioffreda/glue-data-layer.svg?branch=master)](https://travis-ci.org/ggioffreda/glue-data-layer)
+
 Usage
 -----
 
