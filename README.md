@@ -13,10 +13,10 @@ Usage
 -----
 
 To better understand what's this all about this section presents three examples 
-of common logic executed consuming the RethinkDb API directly or through this
+of common logic executed consuming the RethinkDB API directly or through this
 library.
 
-Connecting to RethinkDb:
+Connecting to RethinkDB:
 
 ```javascript
 var r = require('rethinkdb');
@@ -45,7 +45,7 @@ The code is pretty much the same, main difference here is that you can share the
 same connection among multiple modules. Your callback will be called only once the
 connection is established and you can start querying your data straight away.
 
-Querying directly RethinkDb:
+Querying directly RethinkDB:
 
 ```javascript
 r.db('test').tableCreate('authors').run(connection, function(err, result) {
