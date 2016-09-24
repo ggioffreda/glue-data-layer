@@ -16,7 +16,9 @@ To better understand what's this all about this section presents three examples
 of common logic executed consuming the RethinkDB API directly or through this
 library.
 
-Connecting to RethinkDB:
+### Connecting
+
+Connecting to RethinkDB without this library:
 
 ```javascript
 var r = require('rethinkdb');
@@ -45,7 +47,9 @@ The code is pretty much the same, main difference here is that you can share the
 same connection among multiple modules. Your callback will be called only once the
 connection is established and you can start querying your data straight away.
 
-Querying directly RethinkDB:
+### Querying
+
+Querying directly RethinkDB without this library:
 
 ```javascript
 r.db('test').tableCreate('authors').run(connection, function(err, result) {
@@ -84,7 +88,9 @@ dl.insert('test', 'authors', [
 The code is very similar again, the main difference is that your module does not
 have to handle the `connection` directly and can delegate that to the data layer.
 
-Monitoring the connection directly:
+### Monitoring
+
+Monitoring the connection directly without this library:
 
 ```javascript
 var handleConnectionLost = function(error) {
