@@ -103,7 +103,11 @@ function DataLayer(options, rdb) {
    * @param callback
    */
   this.execute = function (query, callback) {
-    query.run(this._connection, callback);
+    try {
+      query.run(this._connection, callback);
+    } catch (e) {
+      callback(e)
+    }
   };
 
   // shorthand self-explanatory methods
